@@ -1,0 +1,27 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    coderay (1.1.0)
+    ezmq (0.4.4)
+      ffi-rzmq (~> 2.0)
+    ffi (1.9.10)
+    ffi-rzmq (2.0.4)
+      ffi-rzmq-core (>= 1.0.1)
+    ffi-rzmq-core (1.0.3)
+      ffi (~> 1.9)
+    method_source (0.8.2)
+    pry (0.10.1)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    slop (3.6.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  ezmq
+  pry
+
+BUNDLED WITH
+   1.10.4
